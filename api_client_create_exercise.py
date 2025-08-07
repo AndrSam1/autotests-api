@@ -1,10 +1,12 @@
-from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
+from clients.courses.courses_client import get_courses_client
+from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
-from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
+from clients.exercises.exercises_client import get_exercises_client
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema
 from tools.fakers import get_random_email
 
 public_users_client = get_public_users_client()
@@ -37,7 +39,7 @@ create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
 # Создаем курс
-create_course_request = CreateCourseRequestDict(
+create_course_request = CreateCourseRequestSchema(
     title="Python",
     maxScore=100,
     minScore=10,
@@ -50,9 +52,9 @@ create_course_response = courses_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
 
 exercises_client = get_exercises_client(authentication_user)
-create_exercise_request = CreateExerciseRequestDict(
+create_exercise_request = CreateExerciseRequestSchema(
     title="Практика использования API-клиентов",
-    courseId=create_course_response['course']['id'],
+    courseId=create_course_response.course.id,
     maxScore=50,
     minScore=5,
     orderIndex=1,
