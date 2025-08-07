@@ -1,5 +1,3 @@
-from typing import TypedDict
-
 from httpx import Client
 from pydantic import BaseModel
 

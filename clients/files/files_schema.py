@@ -1,11 +1,11 @@
-from pydantic import BaseModel, HttpUrl, UUID4
+from pydantic import BaseModel, HttpUrl
 
 
 class FileSchema(BaseModel):
     """
     Описание структуры файла.
     """
-    id: UUID4
+    id: str
     url: HttpUrl
     filename: str
     directory: str
