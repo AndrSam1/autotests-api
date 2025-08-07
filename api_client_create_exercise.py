@@ -7,18 +7,11 @@ from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
 from clients.exercises.exercises_client import get_exercises_client
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema
-from tools.fakers import fake
 
 public_users_client = get_public_users_client()
 
 # Создаем пользователя
-create_user_request = CreateUserRequestSchema(
-    email=fake.email(),
-    password="string",
-    last_name="string",
-    first_name="string",
-    middle_name="string"
-)
+create_user_request = CreateUserRequestSchema()
 create_user_response = public_users_client.create_user(create_user_request)
 
 # Инициализируем клиенты
@@ -30,21 +23,12 @@ files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
 
 # Загружаем файл
-create_file_request = CreateFileRequestSchema(
-    filename="image.png",
-    directory="courses",
-    upload_file="./testdata/files/image.png"
-)
+create_file_request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
 # Создаем курс
 create_course_request = CreateCourseRequestSchema(
-    title="Python",
-    maxScore=100,
-    minScore=10,
-    description="Python API course",
-    estimatedTime="2 weeks",
     previewFileId=create_file_response.file.id,
     createdByUserId=create_user_response.user.id
 )
@@ -53,13 +37,7 @@ print('Create course data:', create_course_response)
 
 exercises_client = get_exercises_client(authentication_user)
 create_exercise_request = CreateExerciseRequestSchema(
-    title="Практика использования API-клиентов",
     courseId=create_course_response.course.id,
-    maxScore=50,
-    minScore=5,
-    orderIndex=1,
-    description="В данном задании вам необходимо выполнить следующие шаги",
-    estimatedTime="24 hours"
 )
 
 create_exercise_response = exercises_client.create_exercise(create_exercise_request)
