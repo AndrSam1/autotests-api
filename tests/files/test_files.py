@@ -85,7 +85,7 @@ class TestFiles:
         # 6. Проверяем, что ответ соответствует схеме
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
-    def test_get_file_with_incorrect_file_id(self, files_client):
+    def test_get_file_with_incorrect_file_id(self, files_client: FilesClient):
         incorrect_file_id = "incorrect-file-id"
         response = files_client.get_file_api(incorrect_file_id)
 
