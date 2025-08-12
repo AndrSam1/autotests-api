@@ -13,7 +13,7 @@ class ExercisesClient(APIClient):
 
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
-        Метод получения списка упражнений.
+        Метод получения списка заданий.
 
         :param query: Словарь с courseId.
         :return: Ответ от сервера в виде объекта httpx.Response
@@ -22,16 +22,16 @@ class ExercisesClient(APIClient):
 
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
-        Метод получения упражнения.
+        Метод получения задания.
 
-        :param exercise_id: Идентификатор упражнения.
+        :param exercise_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.get(f"/api/v1/exercises/{exercise_id}")
 
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
-        Метод создания упражнения.
+        Метод создания задания.
 
         :param request: Словарь с title, courseId, maxScore, minScore, orderIndex, description, estimatedTime
         :return: Ответ от сервера в виде объекта httpx.Response
@@ -40,9 +40,9 @@ class ExercisesClient(APIClient):
 
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
-        Метод обновления упражнения.
+        Метод обновления задания.
 
-        :param exercise_id: Идентификатор упражнения.
+        :param exercise_id: Идентификатор задания.
         :param request: Словарь с title, maxScore, minScore, orderIndex, description, estimatedTime
         :return: Ответ от сервера в виде объекта httpx.Response
         """
@@ -50,16 +50,16 @@ class ExercisesClient(APIClient):
 
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
-        Метод удаления упражнения.
+        Метод удаления задания.
 
-        :param exercise_id: Идентификатор упражнения.
+        :param exercise_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
 
     def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesResponseSchema:
         """
-        Метод получения списка упражнений.
+        Метод получения списка заданий.
 
         :param query: Словарь с courseId.
         :return: Ответ от сервера в виде json
@@ -69,9 +69,9 @@ class ExercisesClient(APIClient):
 
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
         """
-        Метод получения упражнения.
+        Метод получения задания.
 
-        :param exercise_id: Идентификатор упражнения.
+        :param exercise_id: Идентификатор задания.
         :return: Ответ от сервера в виде json
         """
         response = self.get_exercise_api(exercise_id)
@@ -79,7 +79,7 @@ class ExercisesClient(APIClient):
 
     def create_exercise(self, request: CreateExerciseRequestSchema) -> GetExerciseResponseSchema:
         """
-        Метод создания упражнения.
+        Метод создания задания.
 
         :param request: Словарь с title, courseId, maxScore, minScore, orderIndex, description, estimatedTime
         :return: Ответ от сервера в виде объекта json
@@ -89,9 +89,9 @@ class ExercisesClient(APIClient):
 
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> GetExerciseResponseSchema:
         """
-        Метод обновления упражнения.
+        Метод обновления задания.
 
-        :param exercise_id: Идентификатор упражнения.
+        :param exercise_id: Идентификатор задания.
         :param request: Словарь с title, maxScore, minScore, orderIndex, description, estimatedTime
         :return: Ответ от сервера в виде json
         """

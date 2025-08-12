@@ -4,7 +4,7 @@ from tools.fakers import fake
 
 class Exercise(BaseModel):
     """
-    Описание структуры упражнения.
+    Описание структуры задания.
     """
     model_config = ConfigDict(populate_by_name=True)
 
@@ -20,21 +20,21 @@ class Exercise(BaseModel):
 
 class GetExercisesResponseSchema(BaseModel):
     """
-    Описание структуры ответа на получение списка упражнений.
+    Описание структуры ответа на получение списка заданий.
     """
     exercises: list[Exercise]
 
 
 class GetExerciseResponseSchema(BaseModel):
     """
-    Описание структуры ответа на получение упражнения.
+    Описание структуры ответа на получение задания.
     """
     exercise: Exercise
 
 
 class GetExercisesQuerySchema(BaseModel):
     """
-    Описание структуры запроса на получение списка упражнений.
+    Описание структуры запроса на получение списка заданий.
     """
     model_config = ConfigDict(populate_by_name=True)
 
@@ -43,7 +43,7 @@ class GetExercisesQuerySchema(BaseModel):
 
 class CreateExerciseRequestSchema(BaseModel):
     """
-    Описание структуры запроса на создание упражнения.
+    Описание структуры запроса на создание задания.
     """
     model_config = ConfigDict(populate_by_name=True)
 
@@ -56,9 +56,16 @@ class CreateExerciseRequestSchema(BaseModel):
     estimated_time: str = Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
 
+class CreateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на создание задания.
+    """
+    exercise: Exercise
+
+
 class UpdateExerciseRequestSchema(BaseModel):
     """
-    Описание структуры запроса на обновление упражнения.
+    Описание структуры запроса на обновление задания.
     """
     model_config = ConfigDict(populate_by_name=True)
 
