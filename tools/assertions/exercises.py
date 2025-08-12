@@ -1,7 +1,7 @@
 from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, GetExerciseResponseSchema, ExerciseSchema, \
-    UpdateExerciseRequestSchema
-from tools.assertions.base import assert_equal
+    UpdateExerciseRequestSchema, CreateExerciseResponseSchema, GetExercisesResponseSchema
+from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.errors import assert_internal_error_response
 
 
@@ -22,7 +22,7 @@ def assert_create_exercise_response(request: CreateExerciseRequestSchema, respon
     assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
 
 
-def asser_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
+def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """
     Проверяет, что фактические данные задания соответствуют ожидаемым.
 
@@ -51,7 +51,7 @@ def assert_get_exercise_response(
     :param create_exercise_response: Ответ на запрос создания задания.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
-    asser_exercise(get_exercise_response.exercise, create_exercise_response.exercise)
+    assert_exercise(get_exercise_response.exercise, create_exercise_response.exercise)
 
 
 def assert_update_exercise_response(
@@ -82,3 +82,20 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     """
     expected = InternalErrorResponseSchema(details="Exercise not found")
     assert_internal_error_response(actual, expected)
+
+
+def assert_get_exercises_response(
+    get_exercises_response: GetExercisesResponseSchema,
+    create_exercise_responses: list[GetExerciseResponseSchema]
+):
+    """
+    Проверяет, что ответ на получение списка заданий соответствует ответам на их создание.
+
+    :param get_exercises_response: Ответ API при запросе списка заданий.
+    :param create_exercise_responses: Список API ответов при создании заданий.
+    :raises AssertionError: Если данные заданий не совпадают.
+    """
+    assert_length(get_exercises_response.exercises, create_exercise_responses, "exercises")
+
+    for index, create_exercise_response in enumerate(create_exercise_responses):
+        assert_exercise(get_exercises_response.exercises[index], create_exercise_response.exercise)
