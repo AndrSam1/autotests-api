@@ -2,7 +2,7 @@ import allure
 
 from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, GetExerciseResponseSchema, ExerciseSchema, \
-    UpdateExerciseRequestSchema, CreateExerciseResponseSchema, GetExercisesResponseSchema
+    UpdateExerciseRequestSchema, GetExercisesResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.errors import assert_internal_error_response
 
