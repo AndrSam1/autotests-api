@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDE5OjA1OjM1LjA4MzkwMSIsInVzZXJfaWQiOiI4ZDdlOWYxZi1lYjg5LTRmNTUtOTA2ZC1hMzMwOGYxYTQ4NWIifQ.E-F0F_CQFU6zz8I0-ViqsES04UjD5JIzZIM0ip21t7k' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"If for rich wonder.","maxScore":79,"minScore":23,"description":"Child whom herself fill theory. Respond join again positive so. Green change coach site public. I key fund bank government soon different.","estimatedTime":"9 weeks","previewFileId":"8387a20b-4eb6-4968-8a7f-be6310caaa3e","createdByUserId":"8d7e9f1f-eb89-4f55-906d-a3308f1a485b"}'

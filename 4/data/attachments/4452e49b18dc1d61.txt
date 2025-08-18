@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDE5OjA1OjM0LjQ5OTkzMiIsInVzZXJfaWQiOiIzMWUwOTg0OC1lOTZhLTQ4NGItOThhNi0zN2FiMTAxZDFkZjUifQ.4_1I5FBiv0FHUBkcDHqnwWmhjkc0Ds3iZPP9TYz9aPs' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Character condition four.","courseId":"3d9d17eb-e0ff-4699-954d-bbb342d22fce","maxScore":65,"minScore":18,"orderIndex":4,"description":"Wrong after year partner study while product. These indicate fight. Animal various stuff unit.\nGrowth test full student especially say wind start. Career only occur recognize stock simple green.","estimatedTime":"1 weeks"}'

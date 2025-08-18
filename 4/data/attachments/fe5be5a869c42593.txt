@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8aa07e62-7e89-4586-8417-49ddf9094323' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDE5OjA1OjMyLjQ0NTY3NSIsInVzZXJfaWQiOiI5MTk4MmFmOS1lOThjLTQzYmEtYjllYy02ZmY1NzBkMTFiZDAifQ.njhp3RUJhVJ2_spvVY1B79TgcfwWVMAhcLwO4Q3nBGI' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message peace season hundred lot range own.","maxScore":56,"minScore":13,"description":"Skill trial red open hair capital. From benefit accept name policy market allow.\nPlant dinner above paper old least position become. Bill however four writer hot per.","estimatedTime":"10 weeks"}'

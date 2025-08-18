@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDE5OjA1OjM0LjQ5OTkzMiIsInVzZXJfaWQiOiIzMWUwOTg0OC1lOTZhLTQ4NGItOThhNi0zN2FiMTAxZDFkZjUifQ.4_1I5FBiv0FHUBkcDHqnwWmhjkc0Ds3iZPP9TYz9aPs' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue somebody industry space ground each.","maxScore":60,"minScore":11,"description":"Pressure son animal air reality street. Statement do task card card investment girl may. Program table war.","estimatedTime":"3 weeks","previewFileId":"aee73c91-977b-456a-b86f-6c668622b24a","createdByUserId":"31e09848-e96a-484b-98a6-37ab101d1df5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDE5OjA1OjM1LjY3MDIxMSIsInVzZXJfaWQiOiJhM2MyNzdiZS1lODIzLTQ4ZmMtOGNkYy1jZDllZDM1NGJmOWUifQ.x8-XICwPC4gldCWYnUz5zCfv33VICiFFuhFznDhnXpo' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural top ten scene it.","maxScore":97,"minScore":22,"description":"Case western well to step year. Court yourself crime during would. Usually compare good operation adult continue.","estimatedTime":"1 weeks","previewFileId":"bea962d2-37ac-4755-b3da-61b6867a0c7c","createdByUserId":"a3c277be-e823-48fc-8cdc-cd9ed354bf9e"}'

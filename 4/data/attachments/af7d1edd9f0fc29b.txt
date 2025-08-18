@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDE5OjA1OjMzLjMzMzYyNiIsInVzZXJfaWQiOiIyNjU5YjM1Yi05YWNmLTQ4ZWYtYTFhNS05ZWQ5MDM1Y2IyZjIifQ.wBQWDElrjV7F4Ob9_u07FpXkC2AFzJrtA8JP8BQLV8M' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Man early organization maintain themselves represent.","maxScore":60,"minScore":13,"description":"Affect year this respond share power model one. Here decide leave organization reduce film Mrs.\nBest subject himself actually own. After smile chair.","estimatedTime":"9 weeks","previewFileId":"735a8d0d-0c6f-4c97-b17c-54ba8a3b7f92","createdByUserId":"2659b35b-9acf-48ef-a1a5-9ed9035cb2f2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE4VDE5OjA1OjM2Ljg5MDg2NyIsInVzZXJfaWQiOiI0YjkwNDY1MS03ZTA2LTRiMWQtYWM5OC0wNzMwOTEzMGIxNGEifQ.lJyvTfpUlYWjFxZhDeeEupCA0dlBfstt-hNyCwiUS74' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Probably individual spring administration relationship close along.","courseId":"be3b8e89-fed7-473a-b3da-8cf378894023","maxScore":77,"minScore":6,"orderIndex":49,"description":"Executive forward memory summer international red join impact. Relationship something offer.","estimatedTime":"3 weeks"}'
