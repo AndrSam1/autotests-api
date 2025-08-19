@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/95969db6-1154-469b-8116-16602f4bedfb' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQzOjM2Ljk5MjczMiIsInVzZXJfaWQiOiJmMWYzMGQ2NC0xMjg1LTQ4NWItOTM1ZS1mNTQ1ZmI1MWE0ZTkifQ.RyyJs99FZvz0MIFJ_WAkqWD2rRM5wxgBoHQW8KPBrNg' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"World peace dark great guess foot.","maxScore":84,"minScore":19,"description":"Dark story week especially area after. Natural good indicate light power air former drive.\nAttention federal south head. Quality professor room wind recognize figure others.","estimatedTime":"7 weeks"}'

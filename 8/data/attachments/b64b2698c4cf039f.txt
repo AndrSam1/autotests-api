@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:98 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Vote avoid girl toward.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 80
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Significant tax decision fund appear you walk. Star really teacher listen article feeling thought who.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 2fba41ca-3d82-4304-9e1e-cef8796c88e3
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 991bb4ae-38fc-4e02-afbb-2d118882fe0e
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

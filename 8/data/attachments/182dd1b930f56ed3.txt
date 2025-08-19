@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQzOjM4LjIzNDI0NSIsInVzZXJfaWQiOiI5OTFiYjRhZS0zOGZjLTRlMDItYWZiYi0yZDExODg4MmZlMGUifQ.ExaKv39B-QTUv2Y6VYbrsxm5JzMdsh5Hf7vUcl1YFJc' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Vote avoid girl toward.","maxScore":80,"minScore":21,"description":"Significant tax decision fund appear you walk. Star really teacher listen article feeling thought who.","estimatedTime":"7 weeks","previewFileId":"2fba41ca-3d82-4304-9e1e-cef8796c88e3","createdByUserId":"991bb4ae-38fc-4e02-afbb-2d118882fe0e"}'

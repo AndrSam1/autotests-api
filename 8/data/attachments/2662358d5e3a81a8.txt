@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQzOjM3LjU5MTQ2NyIsInVzZXJfaWQiOiJlMmZmNTkzNi0zMmM1LTQxMzItYmU5My0xNGNmMDBjMTk3YmYifQ.5Z_cb6ri86E5g7V76p0UG5TnJ0gTNpxS6JZIEAXjiYw' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought ever industry.","maxScore":58,"minScore":6,"description":"Not she team turn her audience total she. Consider toward quickly notice near.\nAlso enter reveal beat television better. His action foot likely situation result.","estimatedTime":"10 weeks","previewFileId":"801972df-f867-4c04-8269-70d411899a2b","createdByUserId":"e2ff5936-32c5-4132-be93-14cf00c197bf"}'

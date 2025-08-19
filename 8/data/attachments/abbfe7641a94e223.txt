@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQzOjM4LjgyMDAwOSIsInVzZXJfaWQiOiIyMDFiYTczYy1iNmM3LTRmZTQtODE0Mi0wZDkzZGFhZTc4MzUifQ.bEEijhB2Il9VZUAh2siguNfk7k_KSGfl6Sh2EQCw2T0' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Herself although involve deal writer history floor.","maxScore":73,"minScore":27,"description":"Task population face yourself. Them Republican after tree nor.\nAction station speech power million bad. Deal room south movement general establish. Government impact leader money style wear.","estimatedTime":"1 weeks","previewFileId":"1ed9b61f-de95-4300-bb0a-c2103f1fa5c0","createdByUserId":"201ba73c-b6c7-4fe4-8142-0d93daae7835"}'

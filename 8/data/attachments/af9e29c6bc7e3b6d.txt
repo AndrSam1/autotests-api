@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQzOjM5LjQwNTg3NCIsInVzZXJfaWQiOiJlNTNkMTE1YS01YTEwLTRhZjAtOWEyMC0wZDZlMzY3YzM0YjIifQ.DTkz63UUOz_MUxcV97RgoB2lRSEb756TKrP8mbbBCjY' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Majority candidate enough practice both.","courseId":"1ed68c8e-c7d7-432d-bcbb-6375336b9c54","maxScore":97,"minScore":17,"orderIndex":62,"description":"Sometimes husband travel stuff arm. Purpose town for. During quality hospital health strong huge major.\nWhy PM pay kid special. Quite along evidence.","estimatedTime":"2 weeks"}'

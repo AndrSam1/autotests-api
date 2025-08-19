@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQzOjM5LjQwNTg3NCIsInVzZXJfaWQiOiJlNTNkMTE1YS01YTEwLTRhZjAtOWEyMC0wZDZlMzY3YzM0YjIifQ.DTkz63UUOz_MUxcV97RgoB2lRSEb756TKrP8mbbBCjY' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gas perform consumer administration recently.","maxScore":76,"minScore":6,"description":"Hair economic thing short only speech really. Open nearly safe another. Writer inside window fly learn.","estimatedTime":"1 weeks","previewFileId":"95a96e90-b832-4d87-83bc-1df42d332684","createdByUserId":"e53d115a-5a10-4af0-9a20-0d6e367c34b2"}'

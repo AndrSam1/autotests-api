@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQzOjQwLjA0NTA5NCIsInVzZXJfaWQiOiJjY2U4NzhjNS1mYmJjLTRjMGQtYmYyNS1hMWJlNjlkZmYzNGEifQ.brYW97B0NiUXhO4B4APgnhvN4WJQboBylAU3f-sZvvU' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Example however seven or of simply activity ask.","maxScore":78,"minScore":29,"description":"Information account provide quickly certain recognize. Station why keep where.","estimatedTime":"7 weeks","previewFileId":"237fa439-c1d9-46ea-baf5-a0a4476863aa","createdByUserId":"cce878c5-fbbc-4c0d-bf25-a1be69dff34a"}'
