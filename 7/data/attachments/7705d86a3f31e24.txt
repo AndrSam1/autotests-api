@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/a20d0a5c-fd8e-4c56-b2d8-6b2252cc3a86' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjM5LjcxMzUzMiIsInVzZXJfaWQiOiJkMzJlZjA2Ni0wYThjLTQzNWEtODZkZi0xY2EzNzY1ZTJmZTAifQ.wplgWZ4PPbMgtk6uQkiKtaMMpMKcIKWDlOK-9wz1Vgs' \
+  -H 'content-length: 240' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official each culture set from glass.","maxScore":50,"minScore":12,"orderIndex":4,"description":"Step something music west. Yeah success share group determine red recent. Region professional often once.","estimatedTime":"2 weeks"}'

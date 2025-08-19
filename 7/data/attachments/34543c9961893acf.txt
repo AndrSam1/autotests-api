@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjQxLjUzNzg5OSIsInVzZXJfaWQiOiI1MDM3ODE4Zi04MjIzLTQwZGItYWNhYS00NjU2MDVmNmI4NTMifQ.I3N8Zad5r5TEg-U926ncczMC-5qppLedV3rF2_3uYto' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Range respond begin never goal picture.","maxScore":56,"minScore":9,"description":"Describe human new. Treat like crime show. Not especially what.\nNice course individual beautiful. Pull lose water can effort eight member federal. Feel card then parent manager better.","estimatedTime":"9 weeks","previewFileId":"178b8785-959d-4b4f-96cc-084a193e7798","createdByUserId":"5037818f-8223-40db-acaa-465605f6b853"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjQwLjMwNjMwNCIsInVzZXJfaWQiOiI3M2NlZmJkMC1lNDg1LTQxZGEtYTYwYS0xYTFiNDlmYWU0YTkifQ.V61zwgI0J-vJNg4eCkivdumitheSMSZGBBJWv00XA9o' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Itself any us attorney my however modern.","maxScore":70,"minScore":16,"description":"Speech likely sit lay man one. Dinner accept agreement later lawyer population. Fast successful enjoy common myself rich.","estimatedTime":"5 weeks","previewFileId":"dd7d2a06-c55b-4458-af51-f3ec902693b1","createdByUserId":"73cefbd0-e485-41da-a60a-1a1b49fae4a9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjM5LjcxMzUzMiIsInVzZXJfaWQiOiJkMzJlZjA2Ni0wYThjLTQzNWEtODZkZi0xY2EzNzY1ZTJmZTAifQ.wplgWZ4PPbMgtk6uQkiKtaMMpMKcIKWDlOK-9wz1Vgs' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During contain relationship enjoy operation middle energy.","maxScore":91,"minScore":6,"description":"Prevent form after. Break carry various player particularly. Girl model use story some.\nCharacter her if choose product.","estimatedTime":"5 weeks","previewFileId":"9548487a-fb85-470b-9acb-f1ddbf07a6a4","createdByUserId":"d32ef066-0a8c-435a-86df-1ca3765e2fe0"}'

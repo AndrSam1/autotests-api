@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjQwLjk1MTkzOSIsInVzZXJfaWQiOiI1MWJhMWY0YS03YTg1LTQzOWMtOWUxOC03ZGEyMmJjZTIzZGEifQ.b6L54YGs21OXEtpTJQ9l0o4-l3rgCk_80f056kjI-wk' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Most four ahead land instead answer.","maxScore":82,"minScore":21,"description":"Yet nature decade meet. Smile resource minute ok. Choose door race or want.\nStyle start evidence almost over cell. Bit kind moment act write effort bad. He site speech think policy culture response.","estimatedTime":"7 weeks","previewFileId":"3a0ead89-ea2d-43bc-b852-7442dc0512e2","createdByUserId":"51ba1f4a-7a85-439c-9e18-7da22bce23da"}'

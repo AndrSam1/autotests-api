@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjM5LjEyODQ2MyIsInVzZXJfaWQiOiJjMzM2N2M3NC0xZmJkLTRhYjAtYjY3ZS0wNjhmZmEyNWVmNGIifQ.o0k9xdaWyUxEYN5TKZ4QprvVfslScvbAFMGEFjJfqxk' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Alone law total establish small under.","maxScore":72,"minScore":2,"description":"Page include when make red show tree. Step much number agreement notice significant. Author card conference.\nOff strategy music race leave a. Receive all miss.","estimatedTime":"8 weeks","previewFileId":"91173f57-a9d8-44b2-b755-9a0c1506d4b5","createdByUserId":"c3367c74-1fbd-4ab0-b67e-068ffa25ef4b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjM3LjkwMDUxMSIsInVzZXJfaWQiOiIzODIzNjE1Yy1hNjg3LTQ1MzAtOTZhZS01NmJiZTVjYjVmNjgifQ.4McVvM-zMhSCYPQIkKbwqZcC3fRSehETTSMZduBQ8IM' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Growth officer dinner try total major sure.","maxScore":87,"minScore":4,"description":"Entire impact change hotel building page. Society matter defense music painting. House campaign rate.","estimatedTime":"7 weeks","previewFileId":"0e21b346-abca-4ecd-92d7-fa0cf72dd334","createdByUserId":"3823615c-a687-4530-96ae-56bbe5cb5f68"}'

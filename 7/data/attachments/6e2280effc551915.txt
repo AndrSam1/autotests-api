@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjM3LjI3Mjk3MCIsInVzZXJfaWQiOiIxMmQ0YTRlYi1jZjIyLTQyZTMtYjVlNC1mYmE5YTI1YmE5ZjkifQ.DHh2Ih0AqPj4mM7H86ESPknwngYGdJQxWCOPIDsOR10' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anyone future stand front community ahead stuff door.","maxScore":75,"minScore":2,"description":"Exist specific religious all this until. Assume across hotel kitchen girl herself maybe.\nOk culture allow appear dark.","estimatedTime":"5 weeks","previewFileId":"1a24d030-7336-44c9-8423-935f8317a62f","createdByUserId":"12d4a4eb-cf22-42e3-b5e4-fba9a25ba9f9"}'

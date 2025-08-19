@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjM5OjM4LjU0OTM1MyIsInVzZXJfaWQiOiJkZjlhZjRhMi1mN2RmLTRkYmUtYjM4ZC01OTg3YzAyNTYzM2YifQ.zyyuaStHIeqmHXvpiL4IqrsPZXQZi6CgweBi3xM2LZ4' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait two center read until board bring opportunity.","maxScore":96,"minScore":20,"description":"Decision center me ok suddenly also. Movement gun become suggest.\nDecision oil church pull.","estimatedTime":"3 weeks","previewFileId":"44e65e66-d65e-419c-a257-8fb387efbe40","createdByUserId":"df9af4a2-f7df-4dbe-b38d-5987c025633f"}'
