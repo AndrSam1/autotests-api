@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjUyLjE5Nzc1MSIsInVzZXJfaWQiOiJjNjFmMzc5ZC01MWQzLTQ0YzEtYTUyZi03ZDk2NmQ1ZDA5M2EifQ.EJW0eKbFCAM04FxXRaiNgX-vZKbIdCmjrECGMtm1Xr4' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worker life project yard already seat million later.","maxScore":87,"minScore":7,"description":"Owner water mention boy lot data take. Watch provide particular represent.\nParticularly find same that discussion conference fly. Doctor quality involve fear.","estimatedTime":"7 weeks","previewFileId":"98ccfbb0-94d7-4f07-9ef6-43143aed64f5","createdByUserId":"c61f379d-51d3-44c1-a52f-7d966d5d093a"}'

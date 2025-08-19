@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjUyLjE5Nzc1MSIsInVzZXJfaWQiOiJjNjFmMzc5ZC01MWQzLTQ0YzEtYTUyZi03ZDk2NmQ1ZDA5M2EifQ.EJW0eKbFCAM04FxXRaiNgX-vZKbIdCmjrECGMtm1Xr4' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible yeah major.","courseId":"c7dcddee-aa2c-424e-bfdd-af25b84583d3","maxScore":81,"minScore":17,"orderIndex":45,"description":"Special either present life music southern quality. Any purpose day young class natural. Night campaign civil send kind candidate book.","estimatedTime":"3 weeks"}'

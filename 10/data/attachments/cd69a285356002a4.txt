@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjUwLjEyMjg1MiIsInVzZXJfaWQiOiJjMDFjZjA1OS1iYjIzLTQyNDAtYmExMi01YmVjM2IzZjkxZDQifQ.v7jxWQd_9K0qH0Kazn9nXyIp_etySQWdQrH2JunYUV0' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kind enter trade speak will.","maxScore":72,"minScore":12,"description":"Republican difference everybody course these. Campaign PM property as national big staff. Vote full buy send analysis approach score.","estimatedTime":"7 weeks","previewFileId":"b8e49283-d439-4f33-abbd-ed432a2084c8","createdByUserId":"c01cf059-bb23-4240-ba12-5bec3b3f91d4"}'

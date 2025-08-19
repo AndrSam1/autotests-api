@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjUyLjc4MzUxMiIsInVzZXJfaWQiOiI4ZjUxZDg0OC05ZWEzLTRlMzQtYWU5ZC1kNDFjMTFlZDJhOTkifQ.H1bDp-onQKqCNXMQVyk2in0LLquPjhwB7XJclO11xcw' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank morning firm take.","maxScore":61,"minScore":19,"description":"Partner worker enter final. Free table summer group hospital. Walk then where her baby charge.","estimatedTime":"6 weeks","previewFileId":"91d9ef43-61fa-4968-8f45-0ce06f23f4d4","createdByUserId":"8f51d848-9ea3-4e34-ae9d-d41c11ed2a99"}'

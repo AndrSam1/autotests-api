@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/febcf9c1-3d90-4752-8438-3e814690a214' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjUwLjEyMjg1MiIsInVzZXJfaWQiOiJjMDFjZjA1OS1iYjIzLTQyNDAtYmExMi01YmVjM2IzZjkxZDQifQ.v7jxWQd_9K0qH0Kazn9nXyIp_etySQWdQrH2JunYUV0' \
+  -H 'content-length: 258' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Section coach loss onto ask.","maxScore":64,"minScore":11,"description":"Would box discussion different until. Responsibility recently unit how those decide.\nPolicy model kitchen. Ability buy song system theory century.","estimatedTime":"2 weeks"}'

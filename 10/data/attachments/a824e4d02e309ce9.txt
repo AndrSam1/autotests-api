@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjUxLjYwODc4MiIsInVzZXJfaWQiOiJmMTJhZTViNi1lNDg1LTRmMTMtYmFmMC01NWQ1ZDE0MDI2NWQifQ.W8gR3ERza_KisGfEQ66frKDYpgaP2nXmfaohCzdd6yU' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Own poor mind.","maxScore":68,"minScore":24,"description":"Great account expect fund report. Score keep bar.\nPhysical describe respond company face. Hit water season fine himself nation. Garden clear throughout wall leg let.","estimatedTime":"7 weeks","previewFileId":"c7894a6d-d674-4ae5-9716-4bdd93fd03e5","createdByUserId":"f12ae5b6-e485-4f13-baf0-55d5d140265d"}'

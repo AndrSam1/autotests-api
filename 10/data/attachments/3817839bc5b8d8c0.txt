@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjU0LjAyMzg2MCIsInVzZXJfaWQiOiI4ZjVhMGU3ZS1jYzdkLTQzOWEtOWQyZC1hMzMzODNkM2RlOWIifQ.yLNuicPoE4qIA6L6hpy3b8nhPM_FlaFLbHbnrDS2EM4' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready piece technology change bill.","maxScore":100,"minScore":29,"description":"Everybody run fall something. Contain on either indeed clear property. Authority thus early keep accept mind.\nNow they peace. This space energy matter man.","estimatedTime":"5 weeks","previewFileId":"7374fc4f-2121-4ae7-813c-c82002c1e6b2","createdByUserId":"8f5a0e7e-cc7d-439a-9d2d-a33383d3de9b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjUxLjAyMjQ5NyIsInVzZXJfaWQiOiJlZjA5MjM5Ny1lMzc3LTQzN2ItYjNlMy00MjJiZTcwZjFiNDEifQ.aE_2h_xv7OihvSHp28Q-POnkVD278yT74_akH8PtHN0' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago base mind personal expert.","maxScore":94,"minScore":27,"description":"Edge cell season force certain his. Part walk suggest difficult.\nOnto security several. Operation upon size let fish Republican these adult. Open summer happen interview they better.","estimatedTime":"1 weeks","previewFileId":"034b38d4-31b1-4868-b18e-c385b50c4770","createdByUserId":"ef092397-e377-437b-b3e3-422be70f1b41"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjUzLjM3MjYzMSIsInVzZXJfaWQiOiI3NWYyNTYyYS1mOWY4LTQ3OTUtOGI3YS04MTQyYjIxMGI4MTcifQ.kWUYHtUXb4SxFnrrpA-LU5Z9kvaxQdI6PPlGy-kXCvA' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw raise event.","maxScore":76,"minScore":27,"description":"Talk daughter walk business next business. Enough short energy perhaps raise. Professor political here.","estimatedTime":"9 weeks","previewFileId":"19faa41c-daa6-4597-979d-8a27632f0144","createdByUserId":"75f2562a-f9f8-4795-8b7a-8142b210b817"}'
