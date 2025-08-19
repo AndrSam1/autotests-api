@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:98 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Play on listen top around force.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Soldier civil region evening view while. Effect my last hit laugh. Pull free buy order clear sea blue. Response low director different skill.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 6301c420-ded2-424b-82f7-fbb576ceda68
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to 377d1907-c269-4aab-bdd9-7e06d29e312e
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validating JSON schema

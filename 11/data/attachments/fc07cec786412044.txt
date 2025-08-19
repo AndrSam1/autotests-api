@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjU0OjMzLjI5MDg0MyIsInVzZXJfaWQiOiI1ZTk0N2RlNC05NzRjLTQ4YzktYTZlMi1iMzAyYThlMDQ3ZjUifQ.WWPJhpuczVhnX-B3dhObwbjsVsdWRM--7Er-IYJekq0' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability decision build together community seat.","maxScore":74,"minScore":4,"description":"Benefit chance issue likely. Building mention ground serious house down make. Anything style now necessary bar available sort.","estimatedTime":"8 weeks","previewFileId":"b2612cd3-ca33-49c5-b4ad-7be01849375f","createdByUserId":"5e947de4-974c-48c9-a6e2-b302a8e047f5"}'

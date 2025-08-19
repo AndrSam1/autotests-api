@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjU0OjM3LjA5OTAzMCIsInVzZXJfaWQiOiJmYTQ1Nzc4YS0xNTI0LTQzYzEtOTg5My01ZDZiMmVmOTgzOTAifQ.i5lTr2PKPhnVCxDXhyIM_as9ImRg-zKx1DhS7Ck4kFw' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arrive number past after.","courseId":"c5d8647c-fac1-43e0-b736-372d501399b7","maxScore":76,"minScore":10,"orderIndex":86,"description":"While mention herself win. Step mind year mean area main program between. Simply real spring manage high letter couple.","estimatedTime":"8 weeks"}'

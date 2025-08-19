@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/105ec79f-e1ba-423c-a59f-8f8226c9b2c1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjU0OjMzLjI5MDg0MyIsInVzZXJfaWQiOiI1ZTk0N2RlNC05NzRjLTQ4YzktYTZlMi1iMzAyYThlMDQ3ZjUifQ.WWPJhpuczVhnX-B3dhObwbjsVsdWRM--7Er-IYJekq0' \
+  -H 'content-length: 221' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heart direction simple education within.","maxScore":81,"minScore":15,"description":"Special or throughout PM. Beyond everybody property already. Daughter international international.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjU0OjM2LjgyNDg2NiIsInVzZXJfaWQiOiI3YTg2MGY2My00YWFlLTQ2ZGUtOGYwYS03NDUxNDUxZjc4MDAifQ.PF0P1QJ8ZCP6awolTjeJuY40IPlCHMBXslCy8P8S2Sk' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Find president loss meeting star.","maxScore":67,"minScore":4,"description":"Front adult someone bring see meeting. Paper whether suggest hit subject star. Station year could sound.\nDream his trouble here professional activity across.","estimatedTime":"4 weeks","previewFileId":"627636e7-93da-4983-bc44-c660174acbad","createdByUserId":"7a860f63-4aae-46de-8f0a-7451451f7800"}'

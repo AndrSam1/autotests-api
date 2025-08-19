@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjU0OjM2LjgyNDg2NiIsInVzZXJfaWQiOiI3YTg2MGY2My00YWFlLTQ2ZGUtOGYwYS03NDUxNDUxZjc4MDAifQ.PF0P1QJ8ZCP6awolTjeJuY40IPlCHMBXslCy8P8S2Sk' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also according father check before finish.","courseId":"02222214-fc71-4dc4-b5cd-56cae372292c","maxScore":56,"minScore":2,"orderIndex":96,"description":"Hour section most hundred affect much husband. Ground debate size clear.\nMedia recently dog cell cell wish my. Race see break religious. Amount fact popular economy several.","estimatedTime":"3 weeks"}'

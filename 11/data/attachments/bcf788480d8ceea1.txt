@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjU0OjM3LjA5OTAzMCIsInVzZXJfaWQiOiJmYTQ1Nzc4YS0xNTI0LTQzYzEtOTg5My01ZDZiMmVmOTgzOTAifQ.i5lTr2PKPhnVCxDXhyIM_as9ImRg-zKx1DhS7Ck4kFw' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evening full report else.","maxScore":100,"minScore":18,"description":"Little its almost adult form season point. Practice national matter fight. Standard recently top impact.\nOrder feeling lose member.","estimatedTime":"6 weeks","previewFileId":"768289dd-e70c-4c0d-8b7b-1c94066f3cbb","createdByUserId":"fa45778a-1524-43c1-9893-5d6b2ef98390"}'

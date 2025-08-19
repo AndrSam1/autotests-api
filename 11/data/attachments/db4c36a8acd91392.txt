@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjU0OjM1LjkwMzQ1MiIsInVzZXJfaWQiOiI4ZTM1YmE2ZS1hNGUyLTQ1NWItYTk0Mi1mMWI3MDBhNjUzY2QifQ.EfyaOcQIt4_j_-0kgOxMKzNGfaylaX1HlyvOX-pP2RA' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Should cold life system free around.","maxScore":51,"minScore":9,"description":"Should economic civil college knowledge goal. Much think more material organization finally degree.","estimatedTime":"10 weeks","previewFileId":"30420a92-f3a2-438a-993f-6518ea7ed8b0","createdByUserId":"8e35ba6e-a4e2-455b-a942-f1b700a653cd"}'

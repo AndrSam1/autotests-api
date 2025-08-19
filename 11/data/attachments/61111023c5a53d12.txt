@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjU0OjM0LjQzNjE4OSIsInVzZXJfaWQiOiIzNDVhMTQ3My04ODEwLTRmYmItYjQzMS1iMmNkYjI2NTQ3MmYifQ.M96YFBEJ3GpkHMiHXpKfUVweFEMMmDqR1Fsj10Tiapk' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Office result hear if environmental site.","maxScore":66,"minScore":17,"description":"Simple city realize truth relationship deal concern. Join interview Democrat practice smile. Along service baby quite more.","estimatedTime":"3 weeks","previewFileId":"9f5694bf-49e1-4019-b199-6fefec469508","createdByUserId":"345a1473-8810-4fbb-b431-b2cdb265472f"}'
