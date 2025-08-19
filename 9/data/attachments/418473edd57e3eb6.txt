@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM3LjMxNDEzOCIsInVzZXJfaWQiOiJkOTc4YmM0OS0wNmEzLTRlNzktOGEyZS1hNThmMGI5NTk5OTEifQ.4kU5MMEYk6knu5cC7rDBBwnmxmCr5QyGJs-q7W8WKM0' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Success anything develop.","maxScore":70,"minScore":11,"description":"Owner reveal design produce. Identify open as want later statement garden.\nOf pretty election difference. Eight high need before never very author.\nWe agree watch record. Size recently month their.","estimatedTime":"6 weeks","previewFileId":"ddb416fe-5858-4983-b87a-cc824fbc5dfd","createdByUserId":"d978bc49-06a3-4e79-8a2e-a58f0b959991"}'

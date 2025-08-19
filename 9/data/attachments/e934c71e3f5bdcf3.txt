@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM4LjQ3Mzk0OSIsInVzZXJfaWQiOiJkOGFjNzFkNi03ZDdiLTQxYTYtODc4Zi0xNzQ0ZTg4NTQxOTQifQ.8Gbh6NVXEbVPZE8YDjH-iNjrT1jZMqDdjAB2iQ96XJM' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"List fill take mean far social kitchen.","maxScore":58,"minScore":15,"description":"Thus rule middle road much. Military anyone director name same analysis ever. Science drug fine model attention help little.","estimatedTime":"5 weeks","previewFileId":"02f5a767-95ae-4dfc-bb69-5fb6a65572f9","createdByUserId":"d8ac71d6-7d7b-41a6-878f-1744e8854194"}'

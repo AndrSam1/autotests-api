@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM5LjA1NjQxOCIsInVzZXJfaWQiOiI3YWFhNTdkNS02NjI4LTQzYzAtYTMxOS0xOTUzNjU3OTBlMjEifQ.r9s7RXDTV3tCgvqG6ECiUvqoDvBIiI-tg8FHQCexO18' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Accept you quickly.","maxScore":89,"minScore":21,"description":"Number draw identify program.\nAlmost game husband specific enough into into discuss. Billion suddenly spring word.","estimatedTime":"3 weeks","previewFileId":"a5d3f8f4-2c20-42c5-bae6-9c75820b90a8","createdByUserId":"7aaa57d5-6628-43c0-a319-195365790e21"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjQwLjI5MDM5OCIsInVzZXJfaWQiOiJlMmJlZWIxNS0wMjJmLTRjNjYtYTUxNy04MGU0ZjRmZjIwMjkifQ.d58ooD_QRPcNebTrBO57bcdcOEOMhe1Y6lUaYAaZk_M' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"With rate out senior actually on.","maxScore":95,"minScore":10,"description":"Wish show industry. Night policy to strategy state will. Structure develop tough. Decade eye low we new suddenly.","estimatedTime":"9 weeks","previewFileId":"baeb664a-0fe3-4cbf-a8a2-9d7cb0f5b3a2","createdByUserId":"e2beeb15-022f-4c66-a517-80e4f4ff2029"}'

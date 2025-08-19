@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM3Ljg5MzEzMSIsInVzZXJfaWQiOiI1ZGUwOGMwNC1mZmQyLTQyNTMtOTUzMS04ODQ2ZDVkMDViZmUifQ.tuqOGOBhkVRSktBSO_2f-Kez2L64tZcYfsVZ7HApIg0' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Before ahead return machine.","maxScore":52,"minScore":20,"description":"Wind professor seat performance race before cover. Especially away quality same whom late never. Reality around face thought line mention.","estimatedTime":"7 weeks","previewFileId":"c7f91ad6-249d-4a8c-85c3-92522515687a","createdByUserId":"5de08c04-ffd2-4253-9531-8846d5d05bfe"}'

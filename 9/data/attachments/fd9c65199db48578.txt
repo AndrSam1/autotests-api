@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM3Ljg5MzEzMSIsInVzZXJfaWQiOiI1ZGUwOGMwNC1mZmQyLTQyNTMtOTUzMS04ODQ2ZDVkMDViZmUifQ.tuqOGOBhkVRSktBSO_2f-Kez2L64tZcYfsVZ7HApIg0' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Per stock much traditional study impact.","courseId":"0562700a-91e6-42f0-bdde-5d2245829a25","maxScore":68,"minScore":22,"orderIndex":95,"description":"Listen be lead moment visit list. Road social response save piece military assume.","estimatedTime":"9 weeks"}'

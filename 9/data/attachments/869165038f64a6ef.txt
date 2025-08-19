@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM5LjcwODEwNyIsInVzZXJfaWQiOiJlZDViYTM0Ny04Y2UyLTRlMmYtYjg1Zi1mMTAwNmVkYjA2Y2UifQ.353d5draHyjHdg6t0dPdYC9NeD4RN2x0LoZJVxwbSwY' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade alone series trip experience.","maxScore":81,"minScore":26,"description":"Recognize reveal wide black. Nor PM executive focus. Spend so task same religious budget me such.","estimatedTime":"4 weeks","previewFileId":"0709e3c8-0a3a-4e5a-a759-88c91de11910","createdByUserId":"ed5ba347-8ce2-4e2f-b85f-f1006edb06ce"}'

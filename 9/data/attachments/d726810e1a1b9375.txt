@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM1Ljg0MzI0NCIsInVzZXJfaWQiOiJjMWZmOTdhMC00MzhkLTQyNWItODlkZC0yMDYyYzE4ZDYwZTMifQ.fnIKo_zvT83Gmg8JHvHh7IWir5zi4sTU4BNnGJW4TRo' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development contain consider perhaps shake.","maxScore":57,"minScore":10,"description":"Member here ball important. Worker big once national. Position rather mother maybe born even executive. Get ready rich since south we.","estimatedTime":"4 weeks","previewFileId":"e63b3518-c9c5-4bf2-b33b-3758b6e48748","createdByUserId":"c1ff97a0-438d-425b-89dd-2062c18d60e3"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/5a05208d-278e-47f9-a5cc-05e790d4730a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM1Ljg0MzI0NCIsInVzZXJfaWQiOiJjMWZmOTdhMC00MzhkLTQyNWItODlkZC0yMDYyYzE4ZDYwZTMifQ.fnIKo_zvT83Gmg8JHvHh7IWir5zi4sTU4BNnGJW4TRo' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care a receive.","maxScore":65,"minScore":21,"description":"Woman tree your. Board even once capital hotel. Agent simply child those without identify man.\nLocal weight process challenge assume you culture. Over build concern door travel dream this.","estimatedTime":"3 weeks"}'

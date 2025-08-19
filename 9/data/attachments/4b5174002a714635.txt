@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjM5LjcwODEwNyIsInVzZXJfaWQiOiJlZDViYTM0Ny04Y2UyLTRlMmYtYjg1Zi1mMTAwNmVkYjA2Y2UifQ.353d5draHyjHdg6t0dPdYC9NeD4RN2x0LoZJVxwbSwY' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Little early expect hotel.","courseId":"2b9dd75b-9ab8-49d0-af6f-38fae3be55fd","maxScore":64,"minScore":12,"orderIndex":88,"description":"Soldier tough none outside share item. Develop reflect blood. Decide head senior nice.\nGuess win moment say oil. Trouble president above quality herself life. Write item per attention on.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDE5OjQ1OjQwLjI5MDM5OCIsInVzZXJfaWQiOiJlMmJlZWIxNS0wMjJmLTRjNjYtYTUxNy04MGU0ZjRmZjIwMjkifQ.d58ooD_QRPcNebTrBO57bcdcOEOMhe1Y6lUaYAaZk_M' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan pay only turn customer.","courseId":"b3614d31-a1b9-4fe3-bf03-5469adc4ab2f","maxScore":80,"minScore":28,"orderIndex":81,"description":"Language feel and. Board trip left save together debate American job.\nImage activity here change receive he area. Owner author once partner.\nYourself product wish. College ago partner myself.","estimatedTime":"2 weeks"}'
