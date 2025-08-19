@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjUyLjAxNDIxNSIsInVzZXJfaWQiOiIzNjlmNThhMi0wMWUyLTRjZjYtODVhMy03MTJiMTM2MDQ3YzMifQ.fem_qljVhaxXaFvjNvnVQQx5ZQ6MdLR3K64wTf1tnXY' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Energy some others compare.","courseId":"7589b668-bdaa-4f2a-ac7a-0f68078c4740","maxScore":92,"minScore":24,"orderIndex":48,"description":"Run hotel these school machine early possible. Suggest perform soon center sign explain wide.\nWeek apply believe relationship theory. Wrong help bank.","estimatedTime":"4 weeks"}'

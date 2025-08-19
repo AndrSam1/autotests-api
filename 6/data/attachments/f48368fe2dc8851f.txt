@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjUyLjAxNDIxNSIsInVzZXJfaWQiOiIzNjlmNThhMi0wMWUyLTRjZjYtODVhMy03MTJiMTM2MDQ3YzMifQ.fem_qljVhaxXaFvjNvnVQQx5ZQ6MdLR3K64wTf1tnXY' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Story nearly order much rock material.","maxScore":58,"minScore":1,"description":"Matter shake pass piece drug. Interview avoid project. Agreement standard pressure wear. Happen lose fill nature.\nTrouble reality on but bank she rest second. Serious up painting page member.","estimatedTime":"7 weeks","previewFileId":"499200bb-9077-49b1-b9be-63e105f493b7","createdByUserId":"369f58a2-01e2-4cf6-85a3-712b136047c3"}'

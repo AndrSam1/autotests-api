@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjQ5LjY2NzQ1OSIsInVzZXJfaWQiOiJkNmVjNzhkYS1hOGU1LTQ5MTEtODhmYy0yMDExNzMxMTlhNmQifQ._ZRjHtG0gRMZhApowUjmVEl7lfEWB1w7boQ91Md70pM' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Born community issue organization through.","maxScore":93,"minScore":26,"description":"Leave to southern world it feeling. Boy magazine style reach reason claim. Memory sea chance.\nTown never history street. Manage per writer instead.","estimatedTime":"9 weeks","previewFileId":"a3edb40a-34ed-4ca8-84b9-7462b3c709e4","createdByUserId":"d6ec78da-a8e5-4911-88fc-201173119a6d"}'

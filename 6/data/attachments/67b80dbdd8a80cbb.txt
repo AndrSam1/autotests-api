@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2e0dda57-e231-41a7-8dc0-3088cada6357' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjQ4Ljc1ODg2MCIsInVzZXJfaWQiOiJiMGEwY2NkOC1hMzRlLTQ2NGMtODQ2OC03YWQ2MmE4NDNhYmMifQ.md3DA-kmmwDjU_liJ9L_BRkpdMx2QtDQwPKieSuyY7c' \
+  -H 'content-length: 231' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly degree bank less hit.","maxScore":100,"minScore":25,"description":"Per exist home time. Strategy require energy time value. Trip health our. Gas girl window firm eat blue compare visit.","estimatedTime":"7 weeks"}'

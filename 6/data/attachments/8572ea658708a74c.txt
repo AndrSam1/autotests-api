@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjUxLjQyNTIwMCIsInVzZXJfaWQiOiIwMmE5Nzk1Ny1iZWM5LTQyNTItYTYxYy1mMDNkNjFhM2I5ZTkifQ.C72qYs-_Ebw99KjpH0HDJXq2Cvnk7ZsZMlU18y43MDQ' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One task fund eat serve Democrat person.","maxScore":94,"minScore":12,"description":"Doctor wish past general perhaps girl large. During figure new that usually myself.\nEarly because boy military. Picture moment truth fact because. Something hour coach join far.","estimatedTime":"6 weeks","previewFileId":"1de681c1-1342-4a03-8c44-b56021172642","createdByUserId":"02a97957-bec9-4252-a61c-f03d61a3b9e9"}'

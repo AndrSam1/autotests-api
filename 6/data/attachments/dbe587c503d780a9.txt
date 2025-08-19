@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjUwLjgzNTk1MSIsInVzZXJfaWQiOiI0Nzk2MDY5OS1mNGIzLTRlNTQtOGQ5MS04OWEwZTIxNzgwZjIifQ.YA7v_d-XeeFLTB271YM9tunQGDaRa12AFzaPGMq5rLc' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Themselves economy establish technology modern serious prepare.","maxScore":87,"minScore":10,"description":"Marriage or thousand left ever out animal food. Computer air option music remember game. Public moment us stock official issue.\nMillion southern history leave. Book trial ever upon.","estimatedTime":"6 weeks","previewFileId":"16360254-6fae-4014-8708-2361151b0cd2","createdByUserId":"47960699-f4b3-4e54-8d91-89a0e21780f2"}'

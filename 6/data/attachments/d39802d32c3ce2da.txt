@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjQ4Ljc1ODg2MCIsInVzZXJfaWQiOiJiMGEwY2NkOC1hMzRlLTQ2NGMtODQ2OC03YWQ2MmE4NDNhYmMifQ.md3DA-kmmwDjU_liJ9L_BRkpdMx2QtDQwPKieSuyY7c' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Brother side marriage thousand central.","maxScore":85,"minScore":22,"description":"Daughter audience age civil wife cold list. Air carry level senior court beautiful store. Case reason hotel whose opportunity word.\nForm both provide across.","estimatedTime":"9 weeks","previewFileId":"9f0d78cd-5255-46f7-8bdf-f13e0a990b00","createdByUserId":"b0a0ccd8-a34e-464c-8468-7ad62a843abc"}'

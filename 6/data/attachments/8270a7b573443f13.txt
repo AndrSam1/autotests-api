@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjUyLjY3MTIyNSIsInVzZXJfaWQiOiIxMTk3YTgwYi1kMmRjLTQwYTMtYjZiMS0xNzBlZTgzY2I3YjYifQ.yrsPVRh4dm_t35x9plt3WidK97yHH8Hea-lI_3Gd52Y' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remain carry discover can there believe management.","maxScore":83,"minScore":15,"description":"No clearly lawyer. Station per deep. Government visit rather choice guy cell.","estimatedTime":"10 weeks","previewFileId":"aab20b6e-5d00-4804-845e-7a5c2bcee51d","createdByUserId":"1197a80b-d2dc-40a3-b6b1-170ee83cb7b6"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjUzLjI1NTkyNiIsInVzZXJfaWQiOiIxODg5YTU0ZC1lMGExLTRjNmItYTMyMC05YjRjOGE1YjU3OTkifQ.1WGQlteNkDXWjs2849YqFWolAKTN_83peSFMI3leJnI' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Now hundred sort manager whole require they.","maxScore":87,"minScore":27,"description":"Laugh myself money by yet. She former together must few man surface. Huge important great traditional talk then own.","estimatedTime":"7 weeks","previewFileId":"299e1843-1390-4ef2-862a-4c7e8529d3f5","createdByUserId":"1889a54d-e0a1-4c6b-a320-9b4c8a5b5799"}'

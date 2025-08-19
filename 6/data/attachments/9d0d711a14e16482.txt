@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/cdaa8440-8f49-48e3-a904-8632779cafcc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE5VDA0OjIxOjUxLjQyNTIwMCIsInVzZXJfaWQiOiIwMmE5Nzk1Ny1iZWM5LTQyNTItYTYxYy1mMDNkNjFhM2I5ZTkifQ.C72qYs-_Ebw99KjpH0HDJXq2Cvnk7ZsZMlU18y43MDQ' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finally certainly special ok wait.","maxScore":50,"minScore":14,"orderIndex":49,"description":"Strong involve memory item population gun rule. Institution paper shake light investment herself. Health suggest south brother section behind. Fill assume program center become difficult.","estimatedTime":"5 weeks"}'
