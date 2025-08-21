@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAzOjU0OjEwLjk4NTUwMiIsInVzZXJfaWQiOiJmZGRmMjExYi0wMzMxLTQ0YTEtYjMyYi04NDc5YzZiYjhmYTAifQ.SCiZQeOpnGBmDW4SERskhhqrf5yyWarweNWtjm7LnaM' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Group successful my tree election side.","maxScore":89,"minScore":2,"description":"Attention network probably perhaps heavy. Opportunity whatever new. Whole case guess field fear.","estimatedTime":"2 weeks","previewFileId":"c2f8263f-75b5-4684-bb09-605020386b2f","createdByUserId":"fddf211b-0331-44a1-b32b-8479c6bb8fa0"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b697ca88-2000-4c25-8fa0-59e09c236904' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAzOjU0OjA3LjEwMjgyNSIsInVzZXJfaWQiOiI1NDIzMTgyZi02ZTUyLTRlZjYtYWU2OS04ODhkNjk5NzYyZWMifQ._-L4b509chonJKCrD35kkKbMGuo99rOhoKDSRaX66ns' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arm door trouble each people.","maxScore":76,"minScore":5,"description":"Majority admit son human front. Sound they left teach site own. Let ok guess lose painting.\nFire stay camera. System watch box film actually senior a.","estimatedTime":"3 weeks"}'

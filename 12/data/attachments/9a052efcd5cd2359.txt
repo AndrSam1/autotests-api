@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAzOjU0OjEwLjMzNDMxNCIsInVzZXJfaWQiOiIyNzgwNGE1OC00ZThhLTQ0NjUtYTgyMS1hYWJiOGI1MzAwNWIifQ.FV0LpeM-Mz2DnB6NTzk3lgBzaZTy61LkSXzNHHZI3Xw' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Officer view I call situation.","maxScore":99,"minScore":17,"description":"Understand human something. Raise beyond design thing. Manager foot experience.\nTrouble machine adult task. Customer herself realize run sound see stand. Defense way age tonight avoid adult.","estimatedTime":"10 weeks","previewFileId":"2a6d5352-9fde-4c86-ae5e-381c8ce14230","createdByUserId":"27804a58-4e8a-4465-a821-aabb8b53005b"}'

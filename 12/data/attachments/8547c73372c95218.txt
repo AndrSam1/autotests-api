@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAzOjU0OjEwLjMzNDMxNCIsInVzZXJfaWQiOiIyNzgwNGE1OC00ZThhLTQ0NjUtYTgyMS1hYWJiOGI1MzAwNWIifQ.FV0LpeM-Mz2DnB6NTzk3lgBzaZTy61LkSXzNHHZI3Xw' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure account idea vote each series way.","courseId":"9860965f-3db4-4a46-88e4-c9bee796bb40","maxScore":63,"minScore":28,"orderIndex":88,"description":"West crime provide course interest though. Space black thousand community. Anything mother population agreement.\nAttack single school cell ten hot station. Or probably clear new.","estimatedTime":"5 weeks"}'

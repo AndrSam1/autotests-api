@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAzOjU0OjA3LjEwMjgyNSIsInVzZXJfaWQiOiI1NDIzMTgyZi02ZTUyLTRlZjYtYWU2OS04ODhkNjk5NzYyZWMifQ._-L4b509chonJKCrD35kkKbMGuo99rOhoKDSRaX66ns' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quite whether their former whose page evening.","maxScore":63,"minScore":30,"description":"Scene Republican like face investment.\nAdmit everybody example involve. Front interesting suffer return bag either. Final popular group change subject.","estimatedTime":"8 weeks","previewFileId":"8ed3b0ea-e46f-48a9-9013-c6c82b12918f","createdByUserId":"5423182f-6e52-4ef6-ae69-888d699762ec"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAzOjU0OjExLjU2NTc0NSIsInVzZXJfaWQiOiJlOTFlMGMzYy0xNDU5LTQzZTItYTA2ZC1mMWY0NGVjY2FjMWQifQ.1rVV6p1BB_PWvHc4SYv0F8gjnrj04IobCYtROGVT7EM' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Off everything walk heart building.","maxScore":61,"minScore":8,"description":"Born condition million sign seat. Stage cup star billion. Heavy citizen across whether.","estimatedTime":"9 weeks","previewFileId":"b57d0cff-1746-4987-97d9-06edc8817251","createdByUserId":"e91e0c3c-1459-43e2-a06d-f1f44eccac1d"}'

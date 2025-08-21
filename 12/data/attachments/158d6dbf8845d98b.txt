@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAzOjU0OjA4LjU3NTYxMiIsInVzZXJfaWQiOiJiN2E3NWIxNy02YmU0LTRhNjgtYTEzZi0xNTliOTg3MzRjNjIifQ.AKlMQOoHPdK4I43i61_3xKK8Lu4m7FgK29nJ3QO3S_E' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seat responsibility still wide.","maxScore":60,"minScore":1,"description":"Very get own international arm build already heavy. Continue region same order place tree focus. Protect without conference music.","estimatedTime":"1 weeks","previewFileId":"255891c5-ecda-4ebe-ac9a-333cb5d9e6bc","createdByUserId":"b7a75b17-6be4-4a68-a13f-159b98734c62"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTIxVDAzOjU0OjA5Ljc0ODI2NiIsInVzZXJfaWQiOiI5MGI0ZTUwNy1jMjAzLTQ0MDItODY5My04YTUyNmVjMDdlMzUifQ.0FkRZsxHWNz7Mi1LMvO13_wEF0IdbEG1TmGzNWov57g' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recently product peace know pretty success Congress.","courseId":"49f0d3fd-a5e6-4c60-ba54-5ed3bdc3cddc","maxScore":67,"minScore":28,"orderIndex":77,"description":"Reach couple others light group. Property true position program born religious anything. Free take treatment book middle theory three.","estimatedTime":"10 weeks"}'
